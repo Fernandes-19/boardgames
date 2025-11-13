@@ -5,6 +5,7 @@ package board
 func (b Board) PlayerWins(s string) bool {
 	// TODO
 	return false
+
 }
 
 // GameOver gibt `true` zurück, wenn das Spiel vorbei ist.
@@ -13,3 +14,7 @@ func (b Board) GameOver() bool {
 	// TODO
 	return false
 }
+
+// PlayerWins prüft, ob ein Spieler (durch sein Zeichen s) gewonnen hat.
+// Es wird überprüft, ob es eine Zeile, Spalte oder Diagonale gibt,
+// die nur aus dem Zeichen s besteht.

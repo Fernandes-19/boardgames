@@ -11,7 +11,7 @@ type Board []rows.Row
 // Liefert ein neues `Board` zurück, das mit dem Zeichen gefüllt ist.
 func New(height, width int, fill string) Board {
 	board := make(Board, height)
-	// TODO
+
 	return board
 }
 
